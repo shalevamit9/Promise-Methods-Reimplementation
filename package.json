@@ -1,0 +1,28 @@
+{
+  "name": "node-ts-esm-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch './**/*.ts' --exec 'node --experimental-specifier-resolution=node --loader ts-node/esm' src/index.ts",
+    "build": "rm -rf dist && rm -rf .buildcache && tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Yariv Gilad",
+    "email": "yariv.gilad@gmail.com",
+    "url": "https://yarivgilad.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}

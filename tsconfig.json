@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true,
+    "tsBuildInfoFile": "./.buildcache/todos.tsbuildinfo",
+  }
+}
