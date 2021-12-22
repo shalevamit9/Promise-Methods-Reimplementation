@@ -3,3 +3,4 @@ export { echo } from './echo.js';
 export { all } from './all.js';
 export { props } from './props.js';
 export { mapParallel } from './map-parallel.js';
+export { mapSeries } from './map-series.js';
