@@ -6,3 +6,4 @@ export { mapParallel } from './map-parallel.js';
 export { mapSeries } from './map-series.js';
 export { filterParallel } from './filter-parallel.js';
 export { filterSeries } from './filter-series.js';
+export { reduce } from './reduce.js';
