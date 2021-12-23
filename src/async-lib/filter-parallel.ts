@@ -1,5 +1,5 @@
 export async function filterParallel(
-  iterable: (Promise<unknown> | unknown)[],
+  iterable: (Promise<unknown> | unknown)[] | string,
   cb: (item: unknown) => Promise<unknown>
 ) {
   const results = [];
