@@ -1,6 +1,5 @@
 .buildcache
 .husky
-dist
 .eslintignore
 .eslintrc
 .gitignore
@@ -9,3 +8,4 @@ dist
 .prettierrc
 package-lock.json
 tsconfig.json
+src
