@@ -8,5 +8,4 @@
 package-lock.json
 tsconfig.json
 src
-dist/index.js
-dist/index.d.ts
+.npmignore
