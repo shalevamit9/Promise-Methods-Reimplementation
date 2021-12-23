@@ -1,5 +1,5 @@
 {
-  "name": "ts-esm-starter",
+  "name": "@amitsrapyd/promise",
   "version": "1.0.0",
   "description": "This simple setup is compiles Typescript to Node.js ESM.",
   "main": "index.js",
