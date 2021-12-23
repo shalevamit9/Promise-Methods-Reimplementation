@@ -1,0 +1,11 @@
+.buildcache
+.husky
+dist
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+.prettierignore
+.prettierrc
+package-lock.json
+tsconfig.json
