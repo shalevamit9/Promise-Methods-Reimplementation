@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   all,
   delay,
@@ -25,9 +26,9 @@ function random(max: number, min = 0) {
   // const promise3 = echo('3 third resolved value', 3000);
   // all
   // console.log(await all([promise1, promise2, promise3]));
-  //props
+  // props
   // console.log(await props({ promise1, promise2, promise3 }));
-  //mapParallel
+  // mapParallel
   // const promise1 = echo('1 first', 1000);
   // const promise2 = echo('2 second', 100);
   // const promise3 = echo('3 third', 2000);
@@ -51,7 +52,7 @@ function random(max: number, min = 0) {
   //   return /^[A-Za-z]+$/.test(c);
   // });
   // console.log(word);
-  //filterSeries
+  // filterSeries
   // await filterSeries('G<4!e3ro0ni1mo', async (char) => {
   //   const c = char as string;
   //   await delay(random(1000, 100));
