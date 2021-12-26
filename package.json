@@ -15,7 +15,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "dist/async-lib/**/*"
+    "dist/async-lib/**/*",
+    "types"
   ],
   "keywords": [],
   "author": {
