@@ -3,7 +3,7 @@
   "version": "1.1.5",
   "description": "This simple setup is compiles Typescript to Node.js ESM.",
   "main": "dist/async-lib/index.js",
-  "types": "./types",
+  "types": "./types/async-lib/index.d.ts",
   "type": "module",
   "scripts": {
     "dev": "nodemon --watch './**/*.ts' --exec 'node --experimental-specifier-resolution=node --loader ts-node/esm' src/index.ts",
@@ -16,7 +16,7 @@
   },
   "files": [
     "dist/async-lib/**/*",
-    "types"
+    "types/async-lib/index.d.ts"
   ],
   "keywords": [],
   "author": {
