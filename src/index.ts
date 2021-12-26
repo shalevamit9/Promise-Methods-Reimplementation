@@ -11,7 +11,7 @@ import {
   filterSeries,
   reduce,
   race,
-  some,
+  some
 } from './async-lib/index.js';
 
 function random(max: number, min = 0) {
