@@ -16,7 +16,7 @@
   },
   "files": [
     "dist/async-lib/**/*",
-    "types/async-lib/index.d.ts"
+    "types/async-lib/**/*"
   ],
   "keywords": [],
   "author": {
