@@ -28,7 +28,8 @@ describe('some module', () => {
         delay(100).then(() => 4),
         delay(300).then(() => 5),
         delay(700).then(() => 6),
-        delay(600).then(() => 7)
+        delay(600).then(() => 7),
+        delay(450).then(() => 8)
       ];
 
       const result = await some(pending, 5);
