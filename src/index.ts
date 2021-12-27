@@ -2,7 +2,6 @@
 import {
   all,
   delay,
-  delayTest,
   echo,
   mapParallel,
   mapSeries,
