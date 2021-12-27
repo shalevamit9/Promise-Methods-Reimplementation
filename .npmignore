@@ -1,5 +1,7 @@
 .buildcache
 .husky
+.nyc_output
+coverage
 .eslintignore
 .eslintrc
 .gitignore
@@ -7,5 +9,10 @@
 .prettierrc
 package-lock.json
 tsconfig.json
+tsconfig.test.json
 src
 .npmignore
+tests
+.nycrc
+.mocharc.json
+nodemon.json
