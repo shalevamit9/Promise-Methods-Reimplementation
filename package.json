@@ -20,7 +20,7 @@
   },
   "files": [
     "dist/async-lib/**/*",
-    "types/async-lib/**/*"
+    "types/**/*"
   ],
   "keywords": [],
   "author": {
