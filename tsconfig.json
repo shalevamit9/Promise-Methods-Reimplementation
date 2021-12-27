@@ -3,15 +3,13 @@
     "strict": true,
     "target": "esnext",
     "module": "esnext",
-    "outDir": "./dist",
-    "rootDir": "./src",
     "declaration": true,
     "declarationDir": "./types",
     "moduleResolution": "node",
     "esModuleInterop": true, 
     "allowSyntheticDefaultImports": true,
-    "incremental": true,
-    "tsBuildInfoFile": "./.buildcache/todos.tsbuildinfo",
-    "noEmitOnError": true 
-  }
+    "skipLibCheck": true,
+    "noEmitOnError": true
+  },
+  "include": ["src/async-lib"]
 }
