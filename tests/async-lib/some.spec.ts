@@ -20,6 +20,21 @@ describe('some module', () => {
       expect(result).to.deep.equal(['second', 'first']);
     });
 
+    it('should return the five most fast promise to finish', async () => {
+      const pending = [
+        delay(500).then(() => 1),
+        delay(200).then(() => 2),
+        delay(900).then(() => 3),
+        delay(100).then(() => 4),
+        delay(300).then(() => 5),
+        delay(700).then(() => 6),
+        delay(600).then(() => 7)
+      ];
+
+      const result = await some(pending, 5);
+      expect(result).to.deep.equal([4, 2, 5, 1, 7]);
+    });
+
     it('should run at most 510 ms', async () => {
       const start = Date.now();
       const pending = [
