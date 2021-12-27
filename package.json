@@ -1,6 +1,6 @@
 {
   "name": "@amitsrapyd/promise",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "This simple setup is compiles Typescript to Node.js ESM.",
   "main": "dist/async-lib/index.js",
   "types": "./types/index.d.ts",
